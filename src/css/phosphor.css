@@ -48,6 +48,12 @@
   font-variant-ligatures: discretionary-ligatures;
 }
 
+.ph-cloud-moon-light:before {
+  content: "\f1df";
+}
+.ph-cloud-moon-thin:before {
+  content: "\f49b";
+}
 .ph-activity-fill:before {
   content: "\e900";
 }
@@ -6861,9 +6867,6 @@
 .ph-cloud-lightning-light:before {
   content: "\f1de";
 }
-.ph-cloud-moon-light:before {
-  content: "\f1df";
-}
 .ph-cloud-rain-light:before {
   content: "\f1e0";
 }
@@ -8906,9 +8909,6 @@
 }
 .ph-cloud-lightning-thin:before {
   content: "\f49a";
-}
-.ph-cloud-moon-thin:before {
-  content: "\f49b";
 }
 .ph-cloud-rain-thin:before {
   content: "\f49c";
