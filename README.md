@@ -1,3 +1,5 @@
+## Modified by ohitsdylan for local hosting fonts and size reduction
+
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
 
 # phosphor-icons
