@@ -1,21 +1,22 @@
 /*
     # MIT License (https://github.com/phosphor-icons/phosphor-icons/blob/master/LICENSE)
-    # Modified by ohitsdylan for local hosting fonts and size reduction
-
 */
 
 @font-face {
-  font-family: "Phosphor";
-  src: url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.ttf?nd9bac")
-      format("truetype"),
-    url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.woff?nd9bac")
-      format("woff"),
-    url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.svg?nd9bac#Phosphor")
-      format("svg");
+    font-family: "Phosphor";
+    src:
+        url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.ttf?nd9bac") format("truetype"),
+        url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.woff?nd9bac") format("woff"),
+        url("https://unpkg.com/phosphor-icons@1.2.0/src/font/Phosphor.svg?nd9bac#Phosphor") format("svg");
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
 
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+[class^="ph-"],
+[class*=" ph-"] {
+  display: inline-flex;
 }
 
 [class^="ph-"]:before,
@@ -24,17 +25,16 @@
   font-style: normal !important;
   font-weight: normal !important;
   speak: never;
-  text-decoration: inherit;
 
-  /* Push the icons back up to sit in the mid line of text content */
-  vertical-align: 0.15rem;
+  text-decoration: inherit;
+  text-align: center;
 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal !important;
   text-transform: none !important;
 
   /* fix buttons height, for twitter bootstrap */
-  line-height: 1;
+  line-height: inherit;
 
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
@@ -49,60 +49,6 @@
   font-feature-settings: "liga";
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
-}
-
-.ph-xxs {
-  font-size: 0.5em;
-}
-.ph-xs {
-  font-size: 0.75em;
-}
-.ph-sm {
-  font-size: 0.875em;
-}
-.ph-lg {
-  font-size: 1.3333em;
-  line-height: 0.75em;
-  vertical-align: -0.0667em;
-}
-.ph-xl {
-  font-size: 1.5em;
-  line-height: 0.6666em;
-  vertical-align: -0.075em;
-}
-.ph-1x {
-  font-size: 1em;
-}
-.ph-2x {
-  font-size: 2em;
-}
-.ph-3x {
-  font-size: 3em;
-}
-.ph-4x {
-  font-size: 4em;
-}
-.ph-5x {
-  font-size: 5em;
-}
-.ph-6x {
-  font-size: 6em;
-}
-.ph-7x {
-  font-size: 7em;
-}
-.ph-8x {
-  font-size: 8em;
-}
-.ph-9x {
-  font-size: 9em;
-}
-.ph-10x {
-  font-size: 10em;
-}
-.ph-fw {
-  text-align: center;
-  width: 1.25em;
 }
 
 .ph-align-bottom-fill:before {
